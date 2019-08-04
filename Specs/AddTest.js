@@ -24,6 +24,7 @@ describe('Juliemer APP Testing',function(){
         obj.result.getText().then(function(text){
             console.log("result is "+text);
             expect(text).toBe(data.result);
+            console.log("test is executed successfully");
         })
       })
     });
