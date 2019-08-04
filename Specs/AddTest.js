@@ -25,6 +25,7 @@ describe('Juliemer APP Testing',function(){
             console.log("result is "+text);
             expect(text).toBe(data.result);
             console.log("test is executed successfully");
+            console.log("End of Suite");
         })
       })
     });
